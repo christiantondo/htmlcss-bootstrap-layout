@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Introduction</title>
+    <title>Bootstrap Grid</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -15,17 +15,25 @@
 
 <body>
     <div class="container my-5">
-        <div class="col-12 text-center">
-            <h1>Bootstrap 5 Responsive Grid</h1>
-            <p class="lead">Layout a griglia con diversi breakpoint (sm, md, kg).</p>
-        </div>
-    </div>
 
-    <div class="row my-4">
-        <div class="col-12 col-md-6 col-lg-6 bg-light p-4">
-            <h2>Colonna 1</h2>
-            <p>Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medie un terzo su dispositivi
-                grandi</p>
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Bootstrap 5 Responsive Grid</h1>
+                <p class="lead">Layout a griglia con diversi breakpoint (sm, md, kg).</p>
+            </div>
+        </div>
+
+        <div class="row my-4">
+            <div class="col-12 col-md-6 col-lg-4 bg-light p-4">
+                <h2>Colonna 1</h2>
+                <p>Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medie un terzo su dispositivi
+                    grandi</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-8 bg-secondary text-white p-4">
+                <h2>Colonna 2</h2>
+                <p>Larghezza intera su dispositivi piccoli, metà larghezza su dispositivi medi e due terzi su
+                    dispositivi grandi</p>
+            </div>
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"></script>
